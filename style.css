@@ -1,0 +1,136 @@
+/* font links */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* common start */
+:root{
+    --pop: "Poppins", sans-serif;
+    --rob: "Roboto", sans-serif;
+
+    --fs: 16px;
+    --fwr: 400;
+
+    --green: #21B573;
+    --black: #000000;
+    --red: #FD511A;
+    --bgg: #c3e9c3;
+    --white: #ffff;
+}
+
+body{
+    font-family: var(--pop);
+    font-size: var(--fs);
+    font-weight: var(--fwr)
+
+}
+/* common end */
+
+
+/* header start */
+header{
+    background-color: var(--bgg);
+    padding: 15px 0;
+}
+.m_nav{}
+.logo{}
+.menu{}
+.menu ul li a{
+    padding: 0  25px !important;
+    background-color: var(--bgg);
+     font-size: 16px;
+    font-weight: var(--fwr);
+    color: #000000 !important;
+    line-height: 24px;
+}
+ .menu ul li a:hover{ color: var(--red) !important;} 
+.btn_c{
+    background-color: var(--green);
+     /* color: var(--white);  */
+    font-family: var(--rob);
+    border-radius: 33px;
+    border: 0;
+    
+}
+.btn_sign{
+    width: 155px;
+    height: 45px;
+    padding: 10px 25px;
+    margin-left: 10px;
+}
+.btn_c:hover, .btn_c:active{
+    background-color: var(--red) !important;
+    color: var(--white) !important;
+}
+
+
+/* header end */
+
+/* banner start */
+.banner{
+    background-color: var(--bgg);
+    padding: 0 0 65px;
+}
+.b_text{}
+.bp1{
+    color: var(--red);
+}
+.bh1 span{
+    color: var(--green);
+}
+.bh1{
+    padding-right: 40px;
+    margin: 10px 0 20px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.bp2{
+    line-height: 36px;
+}
+.btn_banner{
+    padding: 12px 36px;
+    margin-top: 15px;
+}
+.b_img{
+    
+}
+/* banner end */
+
+/* <!-- feature start --> */
+
+.feature{
+   
+}
+.s_feature:hover{
+    box-shadow: 0px 20px 40px 0px #0000001A;
+    background-color: #ffff;
+}
+.c_pad{
+    padding-bottom: 100px;
+}
+.s_feature{
+    margin: 40px 0 0;
+    padding: 55px 0 50px;
+    background-color: var(--bgg);
+    text-align: center;
+    border-radius: 10px;
+}
+.s_img{
+    width: 65px;
+    height: 85px;
+}
+.s_img img{
+
+}
+.s_h2{
+    margin-top: 22px;
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+
+
+}
+.s_p{}
+
+
+
+/* <!-- feature end --> */

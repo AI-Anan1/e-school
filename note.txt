@@ -1,0 +1,20 @@
+
+
+color :
+
+    red #FD511A;
+    green #21B573;
+    black #000000;
+
+    pop 400 700 500
+    roboto 400
+
+
+    font-family: "Poppins", sans-serif;
+      font-family: "Roboto", sans-serif;
+
+      things to consider before adjusting content
+
+      width+ height
+      font-size( md-35px, sm-25px)
+      padding+margin
